@@ -1,37 +1,36 @@
 body {
-	background-image: url("../images/background.jpg");
-
+    background-image: url("../images/background.jpg");
 }
 
 h1 {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 #instructions {
-	font-weight: bold;
-	font-size: 18px;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 #yellow {
-	background: yellow;
-	height: 60px;
+    background: yellow;
+    height: 80px;
 }
 
-#lightgreen{
-	background: lightgreen;
+#lightgreen {
+    background: lightgreen;
 }
 
-#red{
-	background: red;
-	height: 30px;
+#red {
+    background: red;
+    height: 30px;
 }
 
 #randomNumber {
-	font-weight: bold;
-	font-size: 24px;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 #yourNumber {
-	font-weight: bold;
-	font-size: 24px;
+    font-weight: bold;
+    font-size: 24px;
 }
