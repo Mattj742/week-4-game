@@ -8,6 +8,8 @@ var hiddenTwo = Math.floor(Math.random() * (12 - 1) + 1);
 var hiddenThree = Math.floor(Math.random() * (12 - 1) + 1);
 var hiddenFour = Math.floor(Math.random() * (12 - 1) + 1);
 var yourNumber = 0;
+$("#yourNumber").html(yourNumber);
+
 $("#crystalOne").click(crystalOne);
 $("#crystalTwo").click(crystalTwo);
 $("#crystalThree").click(crystalThree);
@@ -80,5 +82,7 @@ function restart() {
 	hiddenThree = Math.floor(Math.random() * (12 - 1) + 1);
 	hiddenFour = Math.floor(Math.random() * (12 - 1) + 1);
 	yourNumber = 0;
+	$("#yourNumber").html(yourNumber);
+
 }
 
