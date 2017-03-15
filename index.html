@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html land="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crystals Collector</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Crystals Collector</h1>
+            </div>
+        </div>
+    
+
+        <div class="row">
+            <div class="col-md-6" id="instructions">
+                <p>You will be given a random number at the start of the game.
+                </p>
+                <p>There are for crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.
+                </p>
+                <p>You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.
+                </p>
+                <p>The value of each crystal is hidden from you until you click on it.
+                </p>
+                <p>Each time when the game starts, the game will change the values of each crystal.</p>
+            </div>
+        </div>
+    
+
+        <div class="row">
+            <div class="col-md-2" id="yellow">
+                <div id="randomNumber"></div>
+            </div>
+            <div class="col-md-2" id="lightgreen">
+            <div id="alert"></div>
+            <p>Wins:<span id="wins"></span></p>
+            <p>Losses:<span id="losses"></span>
+            </p>
+            </div>
+        </div>
+    
+<br>
+        <div class="row">
+            <div class="col-md-2">
+                <button id="crystalOne"><img src="assets/images/crystal1.png"></button>
+            </div>
+			<div class="col-md-2">
+                <button id="crystalTwo"><img src="assets/images/crystal2.png"></button>
+            </div>
+			<div class="col-md-2">
+                <button id="crystalThree"><img src="assets/images/crystal3.png"></button>
+            </div>
+            <div class="col-md-2">
+                <button id="crystalFour"><img src="assets/images/crystal4.png" style="width: 100px; height: 100px;"></button>
+            </div>
+        </div>
+    
+<br>
+
+        <div class="row">
+            <div class="col-md-3" id="red">
+                <p>Your total score:</p>
+            </div>
+		</div>
+	
+
+
+        <div class="row">
+            <div class="col-md-3" id="red">
+                <div id="yourNumber"></div>
+            </div>
+		</div>
+	</div>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <!-- Script -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </script>
+</body>
+
+</html>
